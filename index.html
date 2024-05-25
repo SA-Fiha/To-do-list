@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+        <img id="logo" src="To_do_List-removebg-preview.png">
+        <div class="todo-app">
+            
+            <h2>Organize your work, study and life...<img src="td-removebg-preview.png"></h2>
+            <div class="row">
+                <input type="text" id="inputbox" placeholder="Add your text here">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <img id="placeholder-img" src="sammy-line-man-marks-completed-tasks-in-a-notebook.png" class="placeholder">
+            <ul id="list-container">
+              
+            </ul>
+            <button onclick="clearAllTasks()">Clear All</button> 
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
